@@ -138,7 +138,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-4.jpg" alt="blog post"></img>
+                  <img src="img/blog/4.jpg" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -148,7 +148,7 @@ const News = () => {
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
+                        <img src="img/about/626.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>By Kate</label>

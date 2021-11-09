@@ -12,10 +12,10 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Web Applications", "DataViz", "MLOps", "Legacy Projects"];
+const tabList = ["All", "Web Applications", "DataViz", "ML Projects", "Legacy Projects"];
 const AllPortfolioContent = [
   {
-    img: "m-portfolio-1",
+    img: "web-app",
     title: "Bottle Illustration",
     subTitle: "Figma Shoot",
     alterText: "Bottle Illustration",
@@ -24,7 +24,7 @@ const AllPortfolioContent = [
       "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
   },
   {
-    img: "dashboard",
+    img: "web-app",
     title: "Wordpress Dashboard",
     subTitle: "Real-Time Athlete Readiness & Power Trends",
     alterText: "DataViz",
@@ -33,7 +33,7 @@ const AllPortfolioContent = [
       "https://analytics.engardathletics.com/index.php/capstone-demo/",
   },
   {
-    img: "citibike",
+    img: "web-app",
     title: "Tableau",
     subTitle: "Citibike Storyboard",
     alterText: "DataViz",
@@ -42,7 +42,7 @@ const AllPortfolioContent = [
       "https://public.tableau.com/shared/S4R2NS2MJ?:display_count=n&:origin=viz_share_link",
   },
   {
-    img: "teamreport",
+    img: "web-app",
     title: "HTML Reporting Dashboard",
     subTitle: "Dashboard",
     alterText: "map",
@@ -51,7 +51,7 @@ const AllPortfolioContent = [
       "https://keng85.github.io/team-dashboard/",
   },
   {
-    img: "collegewebscrape",
+    img: "web-app",
     title: "Web scrape: Total College Games Per Player",
     subTitle: "2006 Data Webscrape",
     alterText: "DataViz",
@@ -60,7 +60,7 @@ const AllPortfolioContent = [
       "https://public.tableau.com/views/College_15940833178270/GamesPerPlayer?:language=en-US&:display_count=n&:origin=viz_share_link",
   },
   {
-    img: "m-portfolio-6",
+    img: "web-app",
     title: "Web Application",
     subTitle: "Behance Shot",
     alterText: "Web Application",
@@ -69,7 +69,7 @@ const AllPortfolioContent = [
       "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
   },
   {
-    img: "engacademy2",
+    img: "web-app",
     title: "Learning Management System",
     subTitle: "Engard Academy",
     alterText: "DataViz",
@@ -78,7 +78,7 @@ const AllPortfolioContent = [
       "https://engardacademy.com/",
   },
   {
-    img: "m-portfolio-8",
+    img: "web-app",
     title: "Chatting App Design",
     subTitle: "Codecanyon Market",
     alterText: "Chatting App Design",
@@ -87,7 +87,7 @@ const AllPortfolioContent = [
       "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
   },
   {
-    img: "m-portfolio-9",
+    img: "web-app",
     title: "Web Motion",
     subTitle: "Behance Shot",
     alterText: "Web Motion",
