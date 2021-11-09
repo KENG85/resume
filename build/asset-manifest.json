@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.091112dc.chunk.css",
+    "main.js": "/build/static/js/main.49421c79.chunk.js",
+    "main.js.map": "/build/static/js/main.49421c79.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.0cb8c1be.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.0cb8c1be.js.map",
+    "static/css/2.0b27364e.chunk.css": "/build/static/css/2.0b27364e.chunk.css",
+    "static/js/2.1474d979.chunk.js": "/build/static/js/2.1474d979.chunk.js",
+    "static/js/2.1474d979.chunk.js.map": "/build/static/js/2.1474d979.chunk.js.map",
+    "static/js/3.0ab92fd1.chunk.js": "/build/static/js/3.0ab92fd1.chunk.js",
+    "static/js/3.0ab92fd1.chunk.js.map": "/build/static/js/3.0ab92fd1.chunk.js.map",
+    "index.html": "/build/index.html",
+    "static/css/2.0b27364e.chunk.css.map": "/build/static/css/2.0b27364e.chunk.css.map",
+    "static/css/main.091112dc.chunk.css.map": "/build/static/css/main.091112dc.chunk.css.map",
+    "static/js/2.1474d979.chunk.js.LICENSE.txt": "/build/static/js/2.1474d979.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/build/static/media/et-line.d59b2385.woff",
+    "static/media/slick-theme.css": "/build/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cb8c1be.js",
+    "static/css/2.0b27364e.chunk.css",
+    "static/js/2.1474d979.chunk.js",
+    "static/css/main.091112dc.chunk.css",
+    "static/js/main.49421c79.chunk.js"
+  ]
+}
