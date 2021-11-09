@@ -3,20 +3,20 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-target",
-    title: "(Hu)Man 1st.",
+    title: "The (Hu)Man",
     descriptions: `Cultivating a 'Human 1st' culture of performance success.`,
     delayAnimation: "400",
   },
   {
     icon: "icon-desktop",
-    title: "Methods",
+    title: "The Methods",
     descriptions: `Utilizing machine learning models to monitor, classify and 
     predict changes in the perfomrance environment.`,
     delayAnimation: "200",
   },
   {
     icon: "icon-mobile",
-    title: "Machine",
+    title: "The Machine",
     descriptions: `Committed to helping organizations drive success by 
     monitoring the complex socio-technical environment.`,
     delayAnimation: "",

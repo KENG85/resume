@@ -15,7 +15,7 @@ const breakpointColumnsObj = {
 const tabList = ["All", "Web Applications", "DataViz", "ML Projects", "Legacy Projects"];
 const AllPortfolioContent = [
   {
-    img: "web-app",
+    img: "WEB-APP",
     title: "Bottle Illustration",
     subTitle: "Figma Shoot",
     alterText: "Bottle Illustration",
@@ -24,7 +24,7 @@ const AllPortfolioContent = [
       "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
   },
   {
-    img: "web-app",
+    img: "WEB-APP",
     title: "Wordpress Dashboard",
     subTitle: "Real-Time Athlete Readiness & Power Trends",
     alterText: "DataViz",
@@ -33,7 +33,7 @@ const AllPortfolioContent = [
       "https://analytics.engardathletics.com/index.php/capstone-demo/",
   },
   {
-    img: "web-app",
+    img: "WEB-APP",
     title: "Tableau",
     subTitle: "Citibike Storyboard",
     alterText: "DataViz",
@@ -98,7 +98,7 @@ const AllPortfolioContent = [
 
 const WebAppPortfolioContent = [
   {
-    img: "dashboard",
+    img: "WEB-APP",
     title: "Realtime Wordpress Dashboard",
     subTitle: "Real-Time Athlete Readiness & Power Trends",
     alterText: "DataViz",
@@ -125,7 +125,7 @@ const WebAppPortfolioContent = [
       "#",
   },
   {
-    img: "teamreport",
+    img: "WEB-APP",
     title: "HTML Reporting Dashboard",
     subTitle: "Dashboard",
     alterText: "map",
@@ -167,7 +167,7 @@ const DataVizPortfolioContent = [
 
 const MLOpsPortfolioContent = [
   {
-    img: "m-portfolio-1",
+    img: "WEB-APP",
     title: "Bottle Illustration",
     subTitle: "Figma Shoot",
     alterText: "Bottle Illustration",

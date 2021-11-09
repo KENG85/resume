@@ -6,8 +6,8 @@ const ContactInfo = () => {
       <div className="contact-info">
         <h4>Get in touch</h4>
         <p>
-          When I'm not behind the computer, find me at the track, 
-          training kids or photographing the human experience. 
+          When I'm not behind the computer, find me emmersed in the human 
+          experience with my daughter. #foryouwithlove
         </p>
 
         <ul>
@@ -21,7 +21,7 @@ const ContactInfo = () => {
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body"><a href="mailto:kate@engardathletics.com">kate@engardathletics.com</a></span>
+            <span className="media-body"><a href="mailto:kateengard@gmail.com">kateengard@gmail.com</a></span>
           </li>
           {/* End li */}
 
