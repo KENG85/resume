@@ -8,7 +8,7 @@ import {
   FiFileText,
   FiMail,
 } from "react-icons/fi";
-import {FaParagraph, FaRecordVinyl } from "react-icons/fa";
+import {FaBriefcase, FaParagraph, FaRecordVinyl } from "react-icons/fa";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -40,7 +40,7 @@ const Header = () => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={["home", "about", "resume", "work", "blog", "contactus"]}
+            items={["home", "about", "resume", "blog", "contactus"]}
             currentClassName="active"
             offset={-30}
           >
@@ -91,6 +91,7 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
+            {/*
             <li>
               <a
                 className="nav-link"
@@ -104,7 +105,7 @@ const Header = () => {
                   <span>Projects</span>
                 </ReactTooltip>
               </a>
-            </li>
+            </li>*/}
             <li>
               <a
                 className="nav-link"
@@ -113,9 +114,9 @@ const Header = () => {
                 data-for="BLOG"
                 onClick={handleClick}
               >
-                <FaParagraph />
+                <FaBriefcase />
                 <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
-                  <span>Book</span>
+                  <span>Projects</span>
                 </ReactTooltip>
               </a>
             </li>

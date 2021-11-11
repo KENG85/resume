@@ -28,7 +28,7 @@ const HomeOne = () => {
 
       <Resume />
       {/* End Resume Section */}
-
+      {/* 
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
@@ -37,14 +37,14 @@ const HomeOne = () => {
           <Portfolio />
         </div>
       </section>
+      */}
       {/* End Portfolio Section */}
-
       <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>The Human Experience.</h3>
             <p></p>
-            <p>Excerpts from my upcomming book, "The Weight of Perception".  Expected Release Fall 2022</p>
+            <p>Coding projects and excerpts from my upcomming book, "The Weight of Perception".  Expected Release Fall 2022</p>
           </div>
           <Blog />
         </div>

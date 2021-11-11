@@ -39,7 +39,7 @@ const News = () => {
               <div className="meta">Excerpt - BY KATE</div>
               <h6>
                 <a>
-                They're human and they go through human experiences.
+                Random Forests, NLP and Athlete Monitoring: Capstone Project
                 </a>
               </h6>
             </div>
@@ -61,8 +61,7 @@ const News = () => {
               <div className="meta">05/JAN/2020 - BY SMITH</div>
               <h6>
                 <a>
-                  Ten Mind-Blowing Reasons Why Design Is Using This Technique
-                  For Exposure.
+                  Using Random Forests to Classify Risk for ACL Injury
                 </a>
               </h6>
             </div>
