@@ -12,7 +12,7 @@ import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
   useDocumentTitle(
-    "Kate Engard || Leadership & Innovation | MLOps | Human 1st."
+    "Kate Engard || Human 1st. Performance"
   );
   document.body.classList.add("theme-light");
   return (

@@ -58,7 +58,7 @@ const News = () => {
               <img src={`img/blog/2.jpg`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">05/JAN/2020 - BY SMITH</div>
+              <div className="meta">BY - Kate</div>
               <h6>
                 <a>
                   Using Random Forests to Classify Risk for ACL Injury
@@ -81,10 +81,10 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">12/AUG/2020 - BY RIO</div>
+              <div className="meta">BY - Kate</div>
               <h6>
                 <a>
-                  I Will Tell You The Truth About Design In The Next 60 Seconds.
+                  U of A Coding Bootcamp Projects on GitHub
                 </a>
               </h6>
             </div>
@@ -104,11 +104,10 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">22/JUN/2020 - BY SVEIL</div>
+              <div className="meta">BY - Kate</div>
               <h6>
                 <a>
-                  What You Know About Design And What You Don't Know About
-                  Design.
+                  Current Project: Rasa Chatbot for Athlete Monitoring
                 </a>
               </h6>
             </div>

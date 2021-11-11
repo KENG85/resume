@@ -21,7 +21,7 @@ const ContactInfo = () => {
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body"><a href="mailto:kateengard@gmail.com">kateengard@gmail.com</a></span>
+            <span className="media-body"><a href="mailto:kate@engardathletics.com">kate@engardathletics.com</a></span>
           </li>
           {/* End li */}
 
