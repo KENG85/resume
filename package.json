@@ -2,7 +2,7 @@
   "name": "nairo",
   "version": "1.1.6",
   "private": false,
-  "homepage": "./public",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -39,7 +39,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
