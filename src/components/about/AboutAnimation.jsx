@@ -115,7 +115,7 @@ const About = () => {
 
           {/* End separated */}
           <div className="title">
-            <h3>3M Philosophy.</h3>
+            <h3>Leadership.</h3>
           </div>
 
           <Services />

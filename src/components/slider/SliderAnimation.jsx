@@ -83,7 +83,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="https://docs.google.com/document/d/1xKBb3cGjj-lBQQ_yvCM_fkjg56ClD15KAcnBtCnN_WI/edit?usp=sharing"
+                    href="https://www.dropbox.com/s/os33g2ov3b9s0i5/Engard-Resume-App.pdf?dl=0"
                     download
                   >
                     {sliderContent.btnText}
