@@ -67,8 +67,8 @@
   background-repeat: repeat-x;
   background-size: auto 6px;
   background-position: center;
-  .theme-light & {
-  }
+  /*.theme-light & {
+  }*/
   @include down-md {
     padding-top: 60px;
     padding-bottom: 60px;

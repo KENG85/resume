@@ -18,7 +18,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/626.png" alt="about image" />
+                    <img src="img/about/kate.jpg" alt="about image" />
                   </div>
 
                   <Social />
@@ -28,8 +28,9 @@ const About = () => {
                 {/* End img */}
                 <div className="info">
                   <h3>Kate Engard</h3>
-                  <p>People 1st.</p>
                   <sub>Quantify the Human Experience</sub>
+                  <p>Human 1st.</p>
+                  
                 </div>
                 {/* End info */}
               </div>
@@ -56,9 +57,6 @@ const About = () => {
                   adjustable, and flexible team player.
                   
                   </p>
-                  <p>
-                  <b>TLDR; </b>Just a kid from the streets of Phx tryin to run with the Geeks...
-                  </p>
               
                 </div>
                 <div className="info-list">
@@ -71,7 +69,7 @@ const About = () => {
                         </li>
                         <li>
                           <label>Fav Food: </label>
-                          <span>Lime on errythang!</span>
+                          <span>Guac on errythang!</span>
                         </li>
                       
                         <li>

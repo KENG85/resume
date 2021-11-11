@@ -12,93 +12,11 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Web Applications", "DataViz", "ML Projects", "Legacy Projects"];
-const AllPortfolioContent = [
-  {
-    img: "WEB-APP",
-    title: "Bottle Illustration",
-    subTitle: "Figma Shoot",
-    alterText: "Bottle Illustration",
-    delayAnimation: "",
-    portfolioLink:
-      "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-  },
-  {
-    img: "WEB-APP",
-    title: "Wordpress Dashboard",
-    subTitle: "Real-Time Athlete Readiness & Power Trends",
-    alterText: "DataViz",
-    delayAnimation: "",
-    portfolioLink:
-      "https://analytics.engardathletics.com/index.php/capstone-demo/",
-  },
-  {
-    img: "WEB-APP",
-    title: "Tableau",
-    subTitle: "Citibike Storyboard",
-    alterText: "DataViz",
-    delayAnimation: "100",
-    portfolioLink:
-      "https://public.tableau.com/shared/S4R2NS2MJ?:display_count=n&:origin=viz_share_link",
-  },
-  {
-    img: "web-app",
-    title: "HTML Reporting Dashboard",
-    subTitle: "Dashboard",
-    alterText: "map",
-    delayAnimation: "300",
-    portfolioLink:
-      "https://keng85.github.io/team-dashboard/",
-  },
-  {
-    img: "web-app",
-    title: "Web scrape: Total College Games Per Player",
-    subTitle: "2006 Data Webscrape",
-    alterText: "DataViz",
-    delayAnimation: "200",
-    portfolioLink:
-      "https://public.tableau.com/views/College_15940833178270/GamesPerPlayer?:language=en-US&:display_count=n&:origin=viz_share_link",
-  },
-  {
-    img: "web-app",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "200",
-    portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-  },
-  {
-    img: "web-app",
-    title: "Learning Management System",
-    subTitle: "Engard Academy",
-    alterText: "DataViz",
-    delayAnimation: "300",
-    portfolioLink:
-      "https://engardacademy.com/",
-  },
-  {
-    img: "web-app",
-    title: "Chatting App Design",
-    subTitle: "Codecanyon Market",
-    alterText: "Chatting App Design",
-    delayAnimation: "100",
-    portfolioLink:
-      "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-  },
-  {
-    img: "web-app",
-    title: "Web Motion",
-    subTitle: "Behance Shot",
-    alterText: "Web Motion",
-    delayAnimation: "200",
-    portfolioLink: "https://www.facebook.com/ibthemes",
-  },
-];
+const tabList = ["Legacy Projects", "DataViz", "ML Projects", "Websites/Dashboards" ];
 
 const WebAppPortfolioContent = [
   {
-    img: "WEB-APP",
+    img: "wordpress",
     title: "Realtime Wordpress Dashboard",
     subTitle: "Real-Time Athlete Readiness & Power Trends",
     alterText: "DataViz",
@@ -107,7 +25,7 @@ const WebAppPortfolioContent = [
       "https://analytics.engardathletics.com/index.php/capstone-demo/",
   },
   {
-    img: "engacademy2",
+    img: "LMS",
     title: "Wordpress Learning Management System",
     subTitle: "Engard Academy",
     alterText: "Webdev",
@@ -116,16 +34,7 @@ const WebAppPortfolioContent = [
       "https://engardacademy.com/",
   },
   {
-    img: "m-portfolio-8",
-    title: "Wellness Survey Chatbot",
-    subTitle: "Rasa & NLP",
-    alterText: "Wellness Chatbot",
-    delayAnimation: "200",
-    portfolioLink:
-      "#",
-  },
-  {
-    img: "WEB-APP",
+    img: "collegewebscrape",
     title: "HTML Reporting Dashboard",
     subTitle: "Dashboard",
     alterText: "map",
@@ -146,22 +55,13 @@ const DataVizPortfolioContent = [
   },
 
   {
-    img: "citibike",
+    img: "tableau",
     title: "Tableau",
     subTitle: "Citibike Storyboard",
     alterText: "DataViz",
     delayAnimation: "100",
     portfolioLink:
       "https://public.tableau.com/shared/S4R2NS2MJ?:display_count=n&:origin=viz_share_link",
-  },
-  {
-    img: "m-portfolio-6",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "200",
-    portfolioLink:
-      "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
   },
 ];
 
@@ -173,30 +73,13 @@ const MLOpsPortfolioContent = [
     alterText: "Bottle Illustration",
     delayAnimation: "",
     portfolioLink:
-      "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-  },
-  {
-    img: "m-portfolio-7",
-    title: "Business Card",
-    subTitle: "Graphicriver Market",
-    alterText: "Business Card",
-    delayAnimation: "100",
-    portfolioLink:
-      "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-  },
-  {
-    img: "m-portfolio-9",
-    title: "Web Motion",
-    subTitle: "Behance Shot",
-    alterText: "Web Motion",
-    delayAnimation: "200",
-    portfolioLink: "https://www.facebook.com/ibthemes",
+      "https://github.com/KENG85/colab_notebooks",
   },
 ];
 
 const LegacyPortfolioContent = [
   {
-    img: "m-portfolio-2",
+    img: "legacy",
     title: "Foot Posture Index",
     subTitle: "Computer Vision",
     alterText: "FPI Project",
@@ -205,7 +88,7 @@ const LegacyPortfolioContent = [
       "#",
   },
   {
-    img: "m-portfolio-5",
+    img: "legacy",
     title: "Injury Risk Analysis",
     subTitle: "Random Forest Classifiers",
     alterText: "Movement Analysis",
@@ -215,13 +98,13 @@ const LegacyPortfolioContent = [
   },
 
   {
-    img: "m-portfolio-9",
+    img: "legacy",
     title: "Posture Screen",
     subTitle: "EDA & Postural Adaptations",
     alterText: "EDA",
     delayAnimation: "200",
     portfolioLink:
-      "https://public.tableau.com/views/College_15940833178270/GamesPerPlayer?:language=en-US&:display_count=n&:origin=viz_share_link",
+      "#"
   },
 ];
 
@@ -239,65 +122,13 @@ const PortfolioAnimation = () => {
 
           <SRLWrapper>
             <TabPanel>
-              <div className="portfolio-content ">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {AllPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>
-                            <a href={val.portfolioLink} target="_blank">
-                              {val.title}
-                            </a>
-                          </h5>
-                          <span>{val.subTitle}</span>
-                        </div>
-                        {/* End .portfolio-info */}
-                        <a
-                          href={`img/portfolio/${val.img}.jpg`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                        </a>
-                        {/* End gallery link */}
-
-                        <a
-                          className="portfolio-icon"
-                          href={val.portfolioLink}
-                          target="_blank"
-                        >
-                          <FiLink />
-                        </a>
-                        {/* End .portfolio-icon */}
-                      </div>
-                    </div>
-                  ))}
-                </Masonry>
-              </div>
-              {/* End list wrapper */}
-            </TabPanel>
-
-            <TabPanel>
               <div className="portfolio-content">
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className="my-masonry-grid"
                   columnClassName="my-masonry-grid_column"
                 >
-                  {WebAppPortfolioContent.map((val, i) => (
+                  {LegacyPortfolioContent.map((val, i) => (
                     <div
                       className="portfolio-box-01"
                       key={i}
@@ -455,7 +286,7 @@ const PortfolioAnimation = () => {
                   className="my-masonry-grid"
                   columnClassName="my-masonry-grid_column"
                 >
-                  {LegacyPortfolioContent.map((val, i) => (
+                  {WebAppPortfolioContent.map((val, i) => (
                     <div
                       className="portfolio-box-01"
                       key={i}

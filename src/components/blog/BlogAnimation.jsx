@@ -33,7 +33,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <img src={`img/blog/4.jpg`} alt="blog post"></img>
+              <img src={`img/blog/1.jpg`} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">Excerpt - BY KATE</div>
@@ -101,7 +101,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <img src={`img/blog/1.jpg`} alt="blog post"></img>
+              <img src={`img/blog/4.jpg`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">

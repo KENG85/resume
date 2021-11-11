@@ -64,9 +64,9 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "In Progress",
-    degreeTitle: "Ph.D in Performance Psychology",
-    instituteName: "Grand Canyon University",
+    passingYear: "Current Applicant",
+    degreeTitle: "Ph.D Human Systems Engineering",
+    instituteName: "Arizona State University",
   },
   {
     passingYear: "2012 - 2013",
