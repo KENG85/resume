@@ -19,8 +19,8 @@ const resumeContent = [
     jobDuration: `Jan 2010 - May 2021`,
     timeDuraton: `Part Time`,
     compnayName: "Maricopa Community Colleges",
-    jobDescription: `Facilitate class instruction and student evaluation of 100 & 200 level college courses.  
-    Develop and manage syllabus materials, compile assignments, instruct online discussion exercises, and 
+    jobDescription: `Facilitated class instruction and student evaluation of 100 & 200 level college courses.  
+    Developed and managed syllabus materials, compiled assignments, instructed online discussion exercises, and 
     lead hands-on labs relative to standardized learning objectives.
     | EXS132 - Principles of Cardiovascular Fitness
     | EXS216 - Principles of Strength Training

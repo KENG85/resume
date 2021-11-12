@@ -11,7 +11,7 @@ const ServiceContent = [
     icon: "icon-desktop",
     title: "The Methods",
     descriptions: `Utilizing machine learning models to monitor, classify and 
-    predict changes in the perfomrance environment.`,
+    predict causal changes in perfomrance.`,
     delayAnimation: "200",
   },
   {

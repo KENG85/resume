@@ -142,7 +142,7 @@ const News = () => {
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                    They're human and they go through human experiences.
+                    Capstone Project Demo
                     </h2>
                     <div className="media">
                       <div className="avatar">
@@ -157,43 +157,36 @@ const News = () => {
                   {/* End .article-title */}
 
                   <div className="article-content">
-                    <p>
-                    As I began to look at player stories in combination with organizational systems, 
-                    I found that player potential was being diminished by social nuance and perceptual 
-                    load as inflicted by the cascading effects of multiple system failures. 
-                    </p>
-                    <p>
-                    There remain innumerable confounding factors outside of the actual training session 
-                    that affect player performance; the majority of them are difficult to quantify social 
-                    nuances that obscure opportunity, increase cognitive load and alter decision making. 
-                    </p>
-                    <p>                    
-                    Ultimately, these perceptual burdens manifest in the performance setting as the yips, 
-                    some difficult-to-pinpoint task-execution rut the athlete unexpectedly finds him/herself in, 
-                    heightened risk taking behavior and worse yet, physical injury.  
-                    </p>
+                   
                     <h4>Perceptual Experiences Add to Physical and Cognitive Load</h4>
                     <p>
                     My career as a strength and conditioning coach has culminated not in the metrics defined 
                     as speed or weight but in understanding the weight of life experiences as carried by 
                     each individual I worked with. 
                     </p>
+                    <p>
+                      Because of this, I begain utilizing sentiment analysis to more closely examine changes in mood. 
+                      A demo project can been seen here: 
+                      
+                      <li>
+                        <a href="https://analytics.engardathletics.com/index.php/capstone-demo/">https://analytics.engardathletics.com/index.php/capstone-demo/ </a>
+                      </li>
+                    </p>
+                    <p>
+                      NOTE: The sentiment analysis has been change to quotes to demonstrate the use case without using athlete
+                      information. 
+                    </p>
                     <blockquote>
                       <p>
                       Today, there’s seemingly insurmountable data coming off of every single player, 
                       every single day.  And still, we struggle to manage player load.  Why?
                       </p>
-                      <p className="blockquote-footer">
-                        Foreward{" "}
-                        <cite title="Source Title"> The Weight of Perception</cite>
-                      </p>
+                      
                     </blockquote>
                     <p>
-                      ...They're human and they go through human experiences.  Athetes carry a lot more stress than the average 
-                      person at a very young age. I hope to get the fan to understand the true athlete experience and on the flip, 
-                      I hope to get  coaches to understand that being in a position of power necessitates accountability.  
-                      It is incumbent on all Coaches, and the organizational systems they represent to be truly accountable to the 
-                      health and well being of the athletes they bring in. 
+                      Athletes are human 1st, and like anyone, they go through human experiences.  Athetes carry a lot more stress than the average 
+                      person, and from a very young age. Using sentiment analysis and NLP, I hope to gain a closer undersanding 
+                      of the cognitive states the athlete goes through that affect performance. 
                     </p>
                   </div>
                   {/* End article content */}
@@ -238,22 +231,21 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src="img/blog/2.jpg" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                      Ten Mind-Blowing Reasons Why Design Is Using This
-                      Technique For Exposure.
+                      Using Random Forest Classifiers to Identify ACL Risk
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src="img/about/626.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY SMITH</label>
-                        <span>05 JAN 2020</span>
+                        <label>BY Kate</label>
+                        <span>Random Forests</span>
                       </div>
                     </div>
                   </div>
@@ -261,28 +253,25 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      In this demo project, 7 distinct assessments were conducted on athletes to identify posture and movement.
+                      Random forest classifier was then use to identify biomechanical attributes (or deviations) that were 
+                      most contributing to risk for knee valgus.  
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Using feature importance to indentify attributes within stratified, position-specific groups, targeted
+                      intervention strategies can be applied to position-specific workouts to reduce the risk of knee valgus
+                      within the target population. 
                     </p>
-                    <h4>What are my payment options?</h4>
+                    <h4><a href="https://github.com/KENG85/colab_notebooks/blob/main/hs_football.ipynb"> -- View notebook example on GitHub </a></h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Coaches face the problem of training large groups and limited time with players.  Using random forests can 
+                      provided targeted interventions that are specific to a position group as well as provide insights as to 
+                      current posural adaptations or compensations that may arise within populations due to position-specific play.
                     </p>
+                    <p>
+                      <img src='/img/portfolio/random-forest-ACL.png' height='200'></img>
+                    </p>
+                    {/* 
                     <blockquote>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -294,26 +283,15 @@ const News = () => {
                         <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
+                    */}
+                  
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
-                    <li href="#">Design</li>
-                    <li href="#">Development</li>
-                    <li href="#">Travel</li>
-                    <li href="#">Web Design</li>
-                    <li href="#">Marketing</li>
-                    <li href="#">Research</li>
-                    <li href="#">Managment</li>
+                    <li href="#">Random Forests</li>
+                    <li href="#">Machine Learning</li>
+                    <li href="#">Stratification</li>
+                    <li href="#">Injury Prevention</li>
                   </ul>
                   {/* End tag */}
                 </article>
@@ -351,22 +329,21 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-3.jpg" alt="blog post"></img>
+                  <img src="img/blog/3.jpg" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                      I Will Tell You The Truth About Design In The Next 60
-                      Seconds.
+                    U of A Coding Bootcamp Projects on GitHub
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-3.jpg" alt="thumbnail" />
+                        <img src="img/about/626.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY RIO</label>
-                        <span>12 AUG 2020</span>
+                        <label>BY Kate</label>
+                        <span>Bootcamp Projects</span>
                       </div>
                     </div>
                   </div>
@@ -374,59 +351,62 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      The following repositories were completed as part of assignments during the U of A Coding and Data Visualization Bootcamp.
+                      These repositories demonstrate samples of basic compentencies within that skill set.
                     </p>
+                    <h4><a href="https://github.com/KENG85/MatPlotLib/blob/master/pymaceuticals_KAE.ipynb">EDA with MatPlotLib</a></h4>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      This exploratory data analysis examined the efficacy of various pharmaceutical treatments on tumor suppression in mice.  
+                      EDA included summary statistics, IRQ ranges and graphical analysis using matplotlib. 
                     </p>
-                    <h4>What are my payment options?</h4>
+                    <ul className="nav tag-cloud">
+                    <li href="#">MatPlotLib</li>
+                    <li href="#">Pandas</li>
+                    <li href="#">Statistics</li>
+                    <li href="#">EDA</li>
+                  </ul>
+                  {/* End tag */}
+                    <h4><a href="https://github.com/KENG85/leaflet-challenge/blob/master/index.html">Leaflet Challenge</a></h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Using leaflet to map location of earthquakes. 
                     </p>
-                    <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
-                      </p>
-                      <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
-                      </p>
-                    </blockquote>
+                    <ul className="nav tag-cloud">
+                    <li href="#">Leaflet</li>
+                  </ul>
+                  {/* End tag */}
+                    <h4><a href="https://github.com/KENG85/SQL-Challenge">SQL Challenge</a></h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      SQL Challenge 
+                    </p>
+                    <ul className="nav tag-cloud">
+                    <li href="#">SQL</li>
+                    <li href="#">postgreSQl</li>
+                  </ul>
+                  {/* End tag */}
+                    <h4><a href="https://github.com/KENG85/API-challenge/blob/master/starter_code/WeatherPy.ipynb">API Challenge</a></h4>
+                    <p>
+                      Using weather API and Google Maps API we examined weather trends for various locations. 
+                    </p>
+                    <ul className="nav tag-cloud">
+                    <li href="#">API</li>
+                    <li href="#">OpenWeather</li>
+                    
+                  </ul>
+                  {/* End tag */}
+                    <h4><a href="https://github.com/KENG85/machine-learning-challenge">Machine Learning Challenge</a></h4>
+                    <p>
+                      The purpose of this assignment was to learn the use and application of three different ML models:
+                      <li>KNN Model</li>
+                      <li>Support Vector Classifier</li>
+                      <li>Sequential Model</li>
+                      &nbsp;
+                      and compare the best use case to idenify planets in a dataset.
                     </p>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
-                    <li href="#">Design</li>
-                    <li href="#">Development</li>
-                    <li href="#">Travel</li>
-                    <li href="#">Web Design</li>
-                    <li href="#">Marketing</li>
-                    <li href="#">Research</li>
-                    <li href="#">Managment</li>
+                    <li href="#">ML Models</li>
+            
                   </ul>
                   {/* End tag */}
                 </article>
@@ -464,21 +444,21 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-1.jpg" alt="blog post"></img>
+                  <img src="img/blog/4.jpg" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                      They Now Bade Farewell To The Kind But Unseen People
+                    Current Project: Rasa Chatbot for Athlete Monitoring
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-4.jpg" alt="thumbnail" />
+                        <img src="img/about/626.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY SVEIL</label>
-                        <span>22 JAN 2020</span>
+                        <label>BY Kate</label>
+                        <span>Rasa/Chatbot/NLP</span>
                       </div>
                     </div>
                   </div>
@@ -486,59 +466,37 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      I'm currently beginning a Rasa/NLP project to convert current athlete wellness surveys to an interacive chatbot
+                      that can not only collect the daily wellness data, but also provide immediate guidance to players 
+                      based on the user interaction. 
                     </p>
+                    
+                    <h4>What is Rasa?</h4>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                    Rasa Open Source supplies the building blocks for creating virtual assistants. 
+                    Use Rasa to automate human-to-computer interactions anywhere from websites to social media platforms.
                     </p>
-                    <h4>What are my payment options?</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
-                      </p>
-                      <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
-                      </p>
-                    </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
+                    <ul>
+                      <li>
+                        <em>Natural Language Understanding:</em> Convert raw text from user messages into structured data. 
+                        Parse the user’s intent and extract important key details.
+                      </li>
+                      <li>
+                        <em>Dialogue Management: </em> Machine learning-powered dialogue management decides what the 
+                        assistant should do next, based on the user’s message and context from the conversation.
+                      </li>
+                      <li>
+                        <em>Integrations:</em>Built-in integration points for over 10 messaging channels, 
+                        plus endpoints to connect with databases, APIs, and other data sources.
+                      </li>
+                    </ul>
+                    
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
-                    <li href="#">Design</li>
-                    <li href="#">Development</li>
-                    <li href="#">Travel</li>
-                    <li href="#">Web Design</li>
-                    <li href="#">Marketing</li>
-                    <li href="#">Research</li>
-                    <li href="#">Managment</li>
+                    <li href="#">Rasa</li>
+                    <li href="#">NLP</li>
+                    <li href="#">Chatbot</li>
                   </ul>
                   {/* End tag */}
                 </article>
